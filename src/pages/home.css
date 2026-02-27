@@ -1,0 +1,22 @@
+.hero {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+    background: linear-gradient(90deg, #7c5cff, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hero button {
+    margin-top: 20px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    background: var(--primary);
+    color: white;
+    box-shadow: 0 0 40px rgba(var(--glow), 0.5);
+    cursor: pointer;
+  }
